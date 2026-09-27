@@ -36,21 +36,11 @@ Key results include:
 
 ## Dashboard Preview
 
-### Executive Overview
-
 ![NovaMart Executive Overview](assets/screenshots/overview.PNG)
-
-### Customer Segmentation
 
 ![NovaMart Customer Segmentation](assets/screenshots/customer-segments.PNG)
 
-### AI-Powered Segment Insights
-
 ![NovaMart AI Insights](assets/screenshots/ai-insights.PNG)
-
-### Ask NovaMart
-
-Ask business questions in natural language and receive answers grounded in BigQuery results.
 
 ![Ask NovaMart Natural-Language Analytics](assets/screenshots/ask-novamart.PNG)
 
