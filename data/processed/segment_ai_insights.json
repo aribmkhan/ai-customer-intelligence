@@ -1,0 +1,53 @@
+[
+  {
+    "segment_name": "High-Value Active",
+    "business_summary": "The High-Value Active segment comprises 8,393 customers representing 42.52% of the customer base, yet accounts for 77.92% of total observed historical revenue ($36,843,487.86). With an average of 10.3 orders and an average order value of $440.98, this segment demonstrates substantially higher transactional engagement than the overall customer base. However, with only 57.44% having purchased within the past 90 days and 7.94% inactive for 365 or more days, a meaningful portion of this segment shows signs of reduced recent activity.",
+    "key_characteristics": [
+      "Disproportionate revenue contribution: 42.52% of customers generate 77.92% of observed historical revenue, with an average revenue per customer of $4,389.79.",
+      "Broad but moderate cross-category engagement: an average of 4.21 categories purchased across and an average recency of 122.46 days indicate multi-category buying behavior alongside a recency gap that warrants monitoring.",
+      "Low return rate and moderate discount usage: an average return rate of 4.28% and average discount of 10.19% are observable metrics, though their relationship to margin or profitability cannot be determined from the supplied data alone."
+    ],
+    "opportunity": "With 42.46% of the segment not having purchased within 90 days and 7.94% inactive for over a year, there is a measurable opportunity to design targeted reactivation and retention campaigns aimed at accelerating purchase recency and reducing the share of at-risk customers within this high-revenue segment.",
+    "risk": "The concentration of 77.92% of observed historical revenue in a single segment representing 42.52% of customers creates significant revenue exposure; any meaningful increase in inactivity or attrition within this group could have a disproportionate negative impact on overall revenue performance.",
+    "recommended_actions": [
+      "Design and deploy a segmented re-engagement campaign specifically targeting the 7.94% of customers inactive for 365 or more days within this segment, and measure whether outreach is associated with a statistically meaningful change in reactivation rates.",
+      "Implement a retention monitoring program tracking purchase recency trends for customers approaching 90 and 180 days since last order, establishing measurable thresholds to trigger proactive retention interventions before customers become fully inactive.",
+      "Conduct a controlled experiment testing whether personalized outreach referencing multi-category purchase history (given the average of 4.21 categories) is associated with increased order frequency or average order value, without assuming a causal outcome in advance."
+    ],
+    "priority": "High"
+  },
+  {
+    "segment_name": "Higher-Spend Lapsed",
+    "business_summary": "The Higher-Spend Lapsed segment comprises 7,033 customers (35.63% of the customer base) who have generated $8,739,382.11 in observed historical revenue but show significant engagement drop-off, with an average recency of 396 days and 46.14% inactive for 365 or more days. Despite their historically elevated average order value of $468.81 and average revenue of $1,242.63 per customer, only 13.47% have purchased within the last 90 days, indicating that most of this segment has not transacted recently.",
+    "key_characteristics": [
+      "High average order value and revenue per customer ($468.81 AOV; $1,242.63 avg revenue) relative to their lapsed status, representing a historically high-spending group",
+      "Severe recency decline with an average of 396.06 days since last purchase and 46.14% of customers inactive for 365 or more days, indicating widespread disengagement across the segment",
+      "Narrow category engagement averaging 2.11 categories per customer, with a low average discount rate of 6.89% and a low return rate of 3.96%, suggesting limited breadth of purchasing and minimal return activity historically"
+    ],
+    "opportunity": "Reactivating even a portion of this segment's 7,033 customers could meaningfully recover revenue given their historically high average order value of $468.81; targeted reactivation campaigns directed at the 13.47% who have purchased within 90 days as a more responsive subset, alongside win-back efforts for the broader lapsed group, represent the primary opportunity worth testing and measuring.",
+    "risk": "With 46.14% of customers inactive for over 365 days and an average recency of 396 days, a large share of this segment may not respond to reactivation efforts, and continued inaction risks permanent disengagement from a group that accounts for 18.48% of observed historical revenue despite representing 35.63% of the customer base.",
+    "recommended_actions": [
+      "Design and execute a structured win-back campaign targeting the broadly lapsed portion of this segment, prioritizing the 13.47% who purchased within the past 90 days as a control group to benchmark response rates before scaling outreach to the deeper lapsed cohort",
+      "Conduct an analysis to determine whether the 46.14% inactive for 365-plus days differs meaningfully from the more recently active subset on observable metrics (e.g., order count, AOV, category count), in order to identify whether segmentation refinement would improve reactivation targeting",
+      "Test category expansion messaging in reactivation communications to determine whether customers with an average of 2.11 categories can be encouraged to engage with additional categories, measuring the impact on order frequency and revenue per customer in a controlled experiment"
+    ],
+    "priority": "High"
+  },
+  {
+    "segment_name": "Low-Value Discount-Oriented",
+    "business_summary": "This segment represents 21.85% of the customer base but contributes only 3.59% of observed historical revenue, indicating a significant imbalance between customer volume and revenue output. Engagement is low, with an average of 2.02 orders per customer, purchases concentrated in 1.66 categories on average, and 36.64% of customers having made no purchase in over 365 days. The segment's above-average discount rate of 13.18% and limited purchase activity define its current commercial profile.",
+    "key_characteristics": [
+      "Low revenue contribution relative to customer share: 21.85% of customers account for only 3.59% of observed historical revenue, with an average revenue per customer of $394.11.",
+      "High inactivity: 36.64% of customers have not purchased in over 365 days, and only 21.45% have purchased within the last 90 days, reflecting a predominantly dormant customer base.",
+      "Narrow purchase behavior: Customers average 2.02 orders and 1.66 categories, indicating limited breadth of engagement across NovaMart's catalog."
+    ],
+    "opportunity": "With 4,312 customers who have already transacted, there is an opportunity to design targeted reactivation campaigns for the 36.64% inactive for 365+ days and retention efforts for the remaining active portion, with the goal of increasing order frequency and category breadth, which are currently low based on observed metrics.",
+    "risk": "The primary risk is continued revenue underperformance from this segment. Its large customer share combined with minimal revenue contribution, high inactivity rate, and low order frequency suggest that without deliberate intervention, a significant portion of these customers may generate no further revenue.",
+    "recommended_actions": [
+      "Launch a structured reactivation campaign targeting the 36.64% of customers inactive for 365 or more days, using time-limited offers or messaging, and measure response rates and subsequent purchase behavior to assess campaign effectiveness.",
+      "Design and run a controlled experiment to test whether reducing or adjusting discount levels for active customers in this segment affects order frequency or average order value, in order to generate evidence before making broader discount policy changes.",
+      "Conduct an analysis to identify whether any customer sub-groups within this segment show higher order frequency or category breadth, which could inform more precise targeting and help prioritize where retention investment is most likely to yield measurable revenue improvement."
+    ],
+    "priority": "Medium"
+  }
+]

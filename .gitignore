@@ -1,0 +1,33 @@
+# Environment variables / secrets
+.env
+.env.*
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Superseded development artifacts
+data/raw/transactions.csv
+data/raw/transactions_v2.csv
+src/transaction_generator.py
+src/transaction_generator_v2.py
+architecture/kmeans_elbow.png
+architecture/kmeans_silhouette.png
+data/processed/cluster_profiles.csv
+data/processed/kmeans_evaluation.csv

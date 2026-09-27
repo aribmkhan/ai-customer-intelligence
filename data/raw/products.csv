@@ -1,0 +1,51 @@
+product_id,product_name,category,subcategory,price
+PROD001,Fragrance Product 01,Beauty,Fragrance,458.76
+PROD002,Cycling Product 02,Sports,Cycling,427.27
+PROD003,Shoes Product 03,Clothing,Shoes,232.98
+PROD004,Outdoor Product 04,Sports,Outdoor,61.27
+PROD005,Camping Product 05,Sports,Camping,194.85
+PROD006,Kitchen Product 06,Home,Kitchen,339.39
+PROD007,Shoes Product 07,Clothing,Shoes,337.97
+PROD008,Pants Product 08,Clothing,Pants,301.78
+PROD009,Shoes Product 09,Clothing,Shoes,148.24
+PROD010,Running Product 10,Sports,Running,287.2
+PROD011,Haircare Product 11,Beauty,Haircare,200.72
+PROD012,Shoes Product 12,Clothing,Shoes,486.28
+PROD013,Outdoor Product 13,Sports,Outdoor,426.72
+PROD014,Furniture Product 14,Home,Furniture,365.04
+PROD015,Haircare Product 15,Beauty,Haircare,129.45
+PROD016,Storage Product 16,Home,Storage,139.19
+PROD017,Haircare Product 17,Beauty,Haircare,34.61
+PROD018,Running Product 18,Sports,Running,359.67
+PROD019,Chargers Product 19,Electronics,Chargers,68.78
+PROD020,Fragrance Product 20,Beauty,Fragrance,228.08
+PROD021,Kitchen Product 21,Home,Kitchen,112.83
+PROD022,Outdoor Product 22,Sports,Outdoor,449.45
+PROD023,Body Care Product 23,Beauty,Body Care,245.55
+PROD024,Smart Watches Product 24,Electronics,Smart Watches,288.19
+PROD025,Computer Accessories Product 25,Electronics,Computer Accessories,352.33
+PROD026,Pants Product 26,Clothing,Pants,82.58
+PROD027,Shirts Product 27,Clothing,Shirts,308.14
+PROD028,Storage Product 28,Home,Storage,276.82
+PROD029,Fragrance Product 29,Beauty,Fragrance,113.48
+PROD030,Fragrance Product 30,Beauty,Fragrance,472.28
+PROD031,Accessories Product 31,Clothing,Accessories,305.45
+PROD032,Skincare Product 32,Beauty,Skincare,351.97
+PROD033,Body Care Product 33,Beauty,Body Care,442.03
+PROD034,Computer Accessories Product 34,Electronics,Computer Accessories,317.81
+PROD035,Shirts Product 35,Clothing,Shirts,158.38
+PROD036,Fitness Product 36,Sports,Fitness,66.16
+PROD037,Shirts Product 37,Clothing,Shirts,236.42
+PROD038,Fitness Product 38,Sports,Fitness,120.94
+PROD039,Chargers Product 39,Electronics,Chargers,217.01
+PROD040,Lighting Product 40,Home,Lighting,443.39
+PROD041,Makeup Product 41,Beauty,Makeup,172.31
+PROD042,Headphones Product 42,Electronics,Headphones,74.21
+PROD043,Makeup Product 43,Beauty,Makeup,187.8
+PROD044,Lighting Product 44,Home,Lighting,454.81
+PROD045,Kitchen Product 45,Home,Kitchen,146.98
+PROD046,Speakers Product 46,Electronics,Speakers,329.13
+PROD047,Home Decor Product 47,Home,Home Decor,15.25
+PROD048,Running Product 48,Sports,Running,186.0
+PROD049,Furniture Product 49,Home,Furniture,162.82
+PROD050,Skincare Product 50,Beauty,Skincare,94.86

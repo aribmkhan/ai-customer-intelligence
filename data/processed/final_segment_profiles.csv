@@ -1,0 +1,4 @@
+segment_name,customer_count,avg_orders,avg_revenue,median_revenue,avg_order_value,avg_recency_days,avg_category_count,avg_discount,avg_return_rate,customer_share_pct,total_revenue,revenue_share_pct,purchased_within_90_days_pct,inactive_365_plus_days_pct
+High-Value Active,8393,10.3,4389.79,3216.46,440.98,122.46,4.21,10.19,0.04,42.52,36843487.7,77.92,57.44,7.94
+Higher-Spend Lapsed,7033,2.81,1242.63,1052.9,468.81,396.06,2.11,6.89,0.04,35.63,8739382.0,18.48,13.47,46.14
+Low-Value Discount-Oriented,4312,2.02,394.11,341.2,206.63,350.58,1.66,13.18,0.05,21.85,1699393.49,3.59,21.45,36.64
