@@ -17,6 +17,8 @@ from src.natural_language_analytics import (
     generate_business_answer,
 )
 
+from src.bigquery_client import get_bigquery_client
+
 PROJECT_ID = "novamart-customer-intelligence"
 
 
@@ -24,7 +26,7 @@ PROJECT_ID = "novamart-customer-intelligence"
 def get_executive_kpis():
     """Retrieve executive KPIs from BigQuery."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     query = """
     SELECT
@@ -47,7 +49,7 @@ def get_executive_kpis():
 def get_monthly_revenue():
     """Retrieve monthly completed-order revenue from BigQuery."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     query = """
     SELECT
@@ -73,7 +75,7 @@ def get_monthly_revenue():
 def get_segment_summary():
     """Retrieve customer segment performance from BigQuery."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     query = """
     SELECT
@@ -103,7 +105,7 @@ def get_segment_summary():
 def get_ai_segment_insights():
     """Retrieve Claude-generated segment insights from BigQuery."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     query = """
     SELECT
@@ -134,7 +136,7 @@ def get_ai_segment_insights():
 def get_category_revenue():
     """Retrieve completed-order revenue by product category."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     query = """
     SELECT
@@ -163,7 +165,7 @@ def get_category_revenue():
 def get_channel_revenue():
     """Retrieve completed-order revenue by acquisition channel."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     query = """
     SELECT

@@ -5,6 +5,7 @@ import re
 from anthropic import Anthropic
 from dotenv import load_dotenv
 from google.cloud import bigquery
+from src.bigquery_client import get_bigquery_client
 
 
 load_dotenv()
@@ -237,7 +238,7 @@ def validate_sql(sql):
 def dry_run_query(sql):
     """Ask BigQuery to validate SQL without executing it."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     job_config = bigquery.QueryJobConfig(
         dry_run=True,
@@ -266,7 +267,7 @@ def dry_run_query(sql):
 def execute_query(sql):
     """Execute validated SQL and return the BigQuery results."""
 
-    client = bigquery.Client(project=PROJECT_ID)
+    client = get_bigquery_client()
 
     print("Executing query...")
 
