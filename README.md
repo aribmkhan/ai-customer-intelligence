@@ -17,6 +17,12 @@ The platform also includes **Ask NovaMart**, a natural-language analytics interf
 - Interactive analytics dashboard built with **Streamlit and Altair**
 - Transparent query results and generated SQL for AI-assisted answers
 
+## Live Demo
+
+🚀 **[Launch the NovaMart AI Customer Intelligence Dashboard](https://ai-customer-intelligence-yazuaftoreoqmmmmtlpukw.streamlit.app/)**
+
+Explore customer segmentation, business performance, AI-generated segment insights, and the Ask NovaMart natural-language analytics interface.
+
 ## Project Results
 
 The completed NovaMart platform demonstrates an end-to-end analytics workflow across cloud data engineering, machine learning, generative AI, and business intelligence.
