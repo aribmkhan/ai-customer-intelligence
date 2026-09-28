@@ -633,15 +633,16 @@ with ask_tab:
         "\"Compare average order value across customer segments.\"*"
     )
 
-    question = st.text_input(
-        "Business Question",
-        placeholder="e.g. Which customer segment generated the most revenue?",
-    )
+    with st.form("ask_novamart_form"):
+        question = st.text_input(
+            "Business Question",
+            placeholder="e.g. Which customer segment generated the most revenue?",
+        )
 
-    ask_button = st.button(
-        "Ask NovaMart",
-        type="primary",
-    )
+        ask_button = st.form_submit_button(
+            "Ask NovaMart",
+            type="primary",
+        )
 
     if ask_button:
 
