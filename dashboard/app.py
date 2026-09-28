@@ -612,6 +612,12 @@ with insights_tab:
 
 with ask_tab:
 
+    # Limits AI queries per browser session to control API usage.
+    MAX_AI_QUERIES = 5
+
+    if "ai_query_count" not in st.session_state:
+        st.session_state.ai_query_count = 0
+
     st.header("Ask NovaMart")
 
     st.caption(
@@ -639,10 +645,14 @@ with ask_tab:
 
     if ask_button:
 
-        if not question.strip():
+        if st.session_state.ai_query_count >= MAX_AI_QUERIES:
+            st.warning(
+                "You've reached the 5-question limit for this demo session."
+            )
+        elif not question.strip():
             st.warning("Please enter a business question.")
-
         else:
+            st.session_state.ai_query_count += 1
             try:
                 with st.spinner("Analyzing NovaMart data..."):
 
@@ -684,3 +694,8 @@ with ask_tab:
                 st.error(
                     f"Unable to answer the question: {error}"
                 )
+    remaining_queries = MAX_AI_QUERIES - st.session_state.ai_query_count
+
+    st.caption(
+        f"AI demo usage: {remaining_queries} of {MAX_AI_QUERIES} questions remaining this session."
+    )
