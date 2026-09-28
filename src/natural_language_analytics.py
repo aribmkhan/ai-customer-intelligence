@@ -271,7 +271,15 @@ def execute_query(sql):
 
     print("Executing query...")
 
-    query_job = client.query(sql)
+    # Prevent generated queries from processing more than 100 MB.
+    job_config = bigquery.QueryJobConfig(
+        maximum_bytes_billed=100 * 1024 * 1024
+    )
+
+    query_job = client.query(
+        sql,
+        job_config=job_config,
+    )
 
     results = query_job.result()
 
