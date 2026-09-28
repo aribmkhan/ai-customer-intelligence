@@ -6,6 +6,12 @@ NovaMart analyzes **20,000 customers, 125,000 transactions, and $47.3M in comple
 
 The platform also includes **Ask NovaMart**, a natural-language analytics interface that converts business questions into validated SQL, queries BigQuery, and generates answers grounded in the resulting data.
 
+## Live Demo
+
+🚀 **[Launch the NovaMart AI Customer Intelligence Dashboard](https://ai-customer-intelligence-yazuaftoreoqmmmmtlpukw.streamlit.app/)**
+
+Explore customer segmentation, business performance, AI-generated segment insights, and the Ask NovaMart natural-language analytics interface.
+
 ## Key Capabilities
 
 - Cloud-based analytics using **Google BigQuery**
@@ -16,12 +22,6 @@ The platform also includes **Ask NovaMart**, a natural-language analytics interf
 - SQL validation and BigQuery dry runs before query execution
 - Interactive analytics dashboard built with **Streamlit and Altair**
 - Transparent query results and generated SQL for AI-assisted answers
-
-## Live Demo
-
-🚀 **[Launch the NovaMart AI Customer Intelligence Dashboard](https://ai-customer-intelligence-yazuaftoreoqmmmmtlpukw.streamlit.app/)**
-
-Explore customer segmentation, business performance, AI-generated segment insights, and the Ask NovaMart natural-language analytics interface.
 
 ## Project Results
 
